@@ -1,0 +1,252 @@
+.body{
+	margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header
+{
+	background-color:rgb(65,94,155);
+	overflow: hidden;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.container
+{
+	width:80%;
+	margin:auto;
+	max-width: 1000px;
+}
+.logo
+{
+	width:20%;
+	float: left;
+}
+img{
+	margin-bottom: 6px;
+	margin-top: 15px;
+}	
+.login
+{
+	width:80%;
+	float: left;
+
+
+}
+form
+{
+	float:right;
+}
+.login label,.login input
+{
+display: block;
+}
+.login .email,.login .password,.login .submit
+{
+	float:left;
+	color:rgb(243,255,242);
+	margin-right: 13px;
+}
+.login a
+{
+	text-decoration: none;
+	color:rgb(156,180,208);
+	font-size: 11px;
+}
+.login label
+{
+	font-size: 13px;
+	margin-top: 6px;
+}
+.submit input
+{
+	background-color:#4267b2;
+	margin-top: 20px;
+	color: rgb(229,255,255);
+	border: 1px solid #29487d;
+	font-size: 15px;
+	float: left;
+}
+.submit input:hover
+{
+
+background-color:rgb(54,88,153);
+
+}
+.signup
+{
+	background:linear-gradient(white,#d5dae9);
+}
+
+
+.signup::after
+{
+content: '';
+clear: both;
+display: block;
+}
+.left
+{
+	width: 55%;
+	float:left;
+}
+.right
+{
+	width:45%;
+	float:left;
+
+}
+.left h3
+{
+	font-size:24px;
+	color:#0e385f;
+	font-weight: 600;
+	width: 100%;
+	
+}
+.left img
+{
+	width: 100%;
+}
+.right h1
+{
+	font-size: 40px;
+	color:black;
+	margin-top: 13px;
+	margin-bottom: 0px;
+	margin-left: 65px;
+}
+.right h3
+{
+	font-size: 19px;
+	color:#1d2129;
+	margin-top: 10px;
+	margin-left: 65px;
+}
+.right form,p a
+{
+	margin-left: 65px;
+}
+.sur-name
+{
+	float:left;
+	width: 48%;
+	box-sizing: border-box;
+	margin-left: 4%;
+}
+.birthday h4
+{
+	font-size:19px;
+	color:#1d2129;
+	font-weight: 400;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+.right input[type="text"],.right input[type="password"]
+{
+width: 100%;
+box-sizing: border-box;
+border: 1px solid #bdc7d8;
+padding: 8px 10px;
+border-radius: 5px;
+font-size: 18px;
+margin:5px 0px;
+}
+
+.full-name
+{
+overflow: hidden;
+}
+.fast-name
+{
+width: 48%;
+float: left;
+
+}
+.birthday h4
+{
+	margin-top: 15px;
+	margin-bottom: 3px;
+	color:rgb(144,148,156); 
+}
+.birthday
+{
+overflow: hidden;
+}
+.birthday select
+{
+	padding:5px;
+	border: 1px solid #777;
+	float:left;
+}
+.birth-date
+{
+	overflow:hidden;
+	float: left;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+.gender h4
+{
+margin-top: 15px;
+	margin-bottom: 3px;
+	color:rgb(144,148,156);
+	font-size: 20px;
+}.gender label
+{
+	font-size: 20px;
+	font-weight: 400;
+	color:#1d2129; 
+
+}
+.gender
+{
+	margin: 10px 0px;
+}
+.text-box
+{
+
+}
+.text-box p
+{
+font-size: 13px;
+color:#777;
+width: 80%;
+}
+.text-box a
+{
+	text-decoration:none; 
+	margin: 5px;
+}
+.text-box a:hover
+{
+	text-decoration:underline;
+}
+.btn input
+{
+	background-color: rgb(106,165,85);
+	padding: 7px 20px;
+	color: white;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-width: 1px;
+	border-style: solid;
+	min-width: 194px;
+	font-weight: 500;
+	font-size:20px; 
+	border-radius: 3px;
+	margin-bottom: 20px;
+	
+}
+.btn input:hover
+{
+	background:linear-gradient(#578843,#67ae55);
+	cursor: pointer;
+}
+.business {
+	font-weight: 600;
+	color:#666;
+}
+.business a{
+	text-decoration: none;
+
+}
